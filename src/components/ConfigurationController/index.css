@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.configuration-controller-container{
+    height: 25vh;
+    background-color: #475569;
+}
+.responsive-cnfig-container{
+    width: 90%;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.config-heading{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 28px;
+
+}
+.checkbox-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+label{
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #ffffff;
+    
+}

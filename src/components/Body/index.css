@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.body-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    background-color: #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    width: 35%;
+    flex-grow: 1;
+    margin-right: 5px;
+}
+.list-item{
+    list-style: none;
+    padding-left: 0;
+}
+.navbar-heading{
+    color: #475569;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+li{
+    color: #64748b;
+    margin-bottom: 10px;
+}
+.item{
+    border-color: #475569;
+    border-width: 1px;
+    border-style: solid;
+    padding: 15px;
+}
+.content-text{
+    font-family: "Roboto";
+    font-size: 15px;
+    text-align: center;
+    width: 70%;
+}
+.content-container{
+    background-color: #f1f5f9;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 5px;
+    padding: 15px;
+}
+@media (max-width: 576px){
+    .body-container{
+        flex-direction: column;
+    }
+    .navbar{
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .content-container{
+        width: 100%;
+    }
+}

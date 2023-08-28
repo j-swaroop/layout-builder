@@ -1,0 +1,9 @@
+/* Write your CSS here */
+.responsive-container{
+    width: 90%;
+    margin: auto;
+}
+.layout-container{
+    display: flex;
+    flex-direction: column;
+}
